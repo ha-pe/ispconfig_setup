@@ -4,7 +4,7 @@
 #---------------------------------------------------------------------
 InstallBasics() {
   echo -n "Updating apt package database and upgrading currently installed packages... "
-  hide_output apt-get update
+  # hide_output apt-get update
   ## hide_output apt-get -y upgrade
   # hide_output apt-get -y dist-upgrade
   # hide_output apt-get -y autoremove
